@@ -1,0 +1,51 @@
+.icon-button{
+  background:none;
+  border:none;
+  color: inherit;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+.c-link{
+  cursor: pointer;
+}
+.start-page{
+  font-size: 30px;
+  height: 300px;
+  line-height: 300px;
+  color: #ccc;
+  text-align: center;
+}
+.right-panel{
+  position: relative;
+  min-height: 100vh;
+}
+.left-panel {
+  min-height: 100vh;
+  position: relative;
+}
+.button-group {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+}
+.CodeMirror-scroll{
+  height: 76vh!important;
+}
+.sync-status{
+  font-size: 12px;
+  color:#959694;
+  position: absolute;
+  bottom: 12px;
+  left: 10px;
+}
+
+.file-list{
+  height: 85vh;
+  overflow: scroll;
+}
+.file-list::-webkit-scrollbar{
+  display: none;
+}
